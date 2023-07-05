@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:ital,wght@0,300;0,500;0,600;1,100&display=swap" rel="stylesheet">
+    <title>Tanjung Pinggir coy</title>
+</head>
+<body>
+    <!-- inihero -->
+    <div class="container">
+        <!-- navbar -->
+        <div class="navbar">
+            <img src="img/lempuyang-temple (1).png" class="logo" >
+            <h2> Beach Recommendations </h2>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Region</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- nama pantai dan button lets explore  -->
+        <div class="row">
+            <div class="col">
+                <h1>Tanjung Pinggir</h1>
+                <p>Commendationes ad optima litora in Batam sunt</p>
+                <button type="button">Lets Explore</button>
+            </div>
+        </div>
+
+        <!-- variasi pantai -->
+        <div class="row2">
+            <a href="index.html"><div class="card card1"></div></a>
+            <div class="card card2"></div>
+            <a href="index3.html"><div class="card card3"></div></a>
+            <a href="index4.html"><div class="card card4"></div></a>
+        </div>
+    </div>
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "7c30e514-8935-4647-8a8c-33ff0c81c30e", // The ID of this integration.
+          region: "au-syd", // The region your integration is hosted in.
+          serviceInstanceID: "f2eedd1b-d773-42a2-8b7b-5afd2e973e85", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+    
+</body>
+</html>
